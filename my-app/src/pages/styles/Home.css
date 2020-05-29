@@ -1,0 +1,69 @@
+.Home {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+    .Home > .Home-logo__container {
+        width: 400px;
+        height: 225px;
+        margin-left: 50px;
+        align-items: center;
+    }
+
+        .Home-logo__container > .Home-logo {
+            width: 400px;
+            height: 170px;
+            margin-bottom: 25px;
+        }
+
+        .Home-logo__container > .Home-logo__description {
+            height: 55px;
+        }
+
+            .Home-logo__description > .Home-logo__description-title {
+                color: white;
+                margin-left: 60px;
+                font-size: large;
+                font-style: oblique;
+            }
+
+            .Home-logo__description > .Home-logo__description-subtitle {
+                color: white;
+                margin-left: 60px;
+                font-size: medium;
+                font-style: oblique;
+            }
+
+        .Home-logo__container > .Home-logo__buttons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+            .Home-logo__buttons > .Home-logo__button {
+                background-color: rgb(129, 201, 21);
+                color: white;
+                text-align: center;
+                margin-top: 10px;
+                border-radius: 10px;
+                width: 100px;
+            }
+
+    .Home > .Home-image__container {
+        width: 500px;
+        height: 500px;
+    }
+
+        .Home-image__container > .Home-image {
+            width: 500px;
+            height: 500px;
+        }
+
+
+  
+
